@@ -1,5 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/ScalaSoft/TDD-NodeJS.png?label=ready&title=Ready)](https://waffle.io/ScalaSoft/TDD-NodeJS)
-# TDD-NodeJS ![alt tag](https://travis-ci.org/ScalaSoft/TDD-NodeJS.svg?branch=master)
+# TDD-NodeJS ![alt tag](https://travis-ci.org/ScalaSoft/TDD-NodeJS.svg?branch=master) [![Stories in Ready](https://badge.waffle.io/ScalaSoft/TDD-NodeJS.png?label=ready&title=Ready)](https://waffle.io/ScalaSoft/TDD-NodeJS)
 Simple example of TDD implementation in NodeJS.
 
 # Description
