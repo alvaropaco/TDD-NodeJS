@@ -19,8 +19,9 @@ var schemeString = "";
 var entities = [
     'Ticket'
 ];
+
 entities.forEach(function(model) {
-  module.exports[model] = sequelize.import(__dirname + '/' + model);
+  module.exports[model] = sequelize.import(path.join(__dirname, model));
 });
 
 //sequelize.sync({force:true})
