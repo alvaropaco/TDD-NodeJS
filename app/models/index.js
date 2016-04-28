@@ -8,6 +8,11 @@ var config 	  = require(path.join(__dirname, '../config/config.json'))[env];
 var sequelize = new Sequelize(
     config
 );
+
+sequelize.sync({
+    force: true
+});
+
 var schemeString = "";
 
 // Load Entities
