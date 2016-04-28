@@ -6,7 +6,7 @@ Simple example of TDD implementation in NodeJS.
 This project is a simple example how to use TDD in Nodejs storing on a SQLite Database. After that i used Travis CI to mage my builds. I hope you enjoy.
 
 ## Requires
-*   NodeJs inatlled >= 5
+*   NodeJs installed >= 5
 *   "chai": "^3.5.0",
 *   "express": "^4.13.4",
 *   "mocha": "^2.4.5",
