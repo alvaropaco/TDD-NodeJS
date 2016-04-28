@@ -17,7 +17,7 @@ var schemeString = "";
 
 // Load Entities
 var entities = [
-    'Ticket'
+    'ticket'
 ];
 
 entities.forEach(function(model) {

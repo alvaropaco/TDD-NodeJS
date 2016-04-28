@@ -5,7 +5,7 @@ var models    = require(path.join(__dirname, "../app/models"));
 describe("Ticket", function() { 
     describe("create", function() {
         it("with empty values in fields", function() {
-            var ticket = models.Ticket.build();
+            var ticket = models.ticket.build();
             expect(ticket).to.not.be.null;
             expect(ticket.dataValues).to.have.any.keys("id", "avaliable");
         });
@@ -16,7 +16,7 @@ describe("Ticket", function() {
                 avaliable: true
             }
             
-            var ticket = models.Ticket.build(params);
+            var ticket = models.ticket.build(params);
             
             expect(ticket).to.be.a('object');
             
@@ -30,7 +30,7 @@ describe("Ticket", function() {
                 bought: 5000
             }
             
-            var ticket = models.Ticket.build(params);
+            var ticket = models.ticket.build(params);
 
             expect(ticket).to.be.a('object');
             expect(ticket.dataValues).to.have.all.keys(['id', 'title', 'desc', 'avaliable', 'bought']);

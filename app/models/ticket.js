@@ -3,7 +3,7 @@
 var Sequelize = require("sequelize");
 
 module.exports = function(sequelize, DataTypes) {
-    var Ticket = sequelize.define('Ticket', {
+    var Ticket = sequelize.define('ticket', {
             id: {
                 type: DataTypes.UUID,
                 defaultValue: DataTypes.UUIDV4,
