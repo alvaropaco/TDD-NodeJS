@@ -1,4 +1,4 @@
-# TDD-NodeJS ![alt tag](https://travis-ci.org/ScalaSoft/TDD-NodeJS.svg?branch=master)
+# TDD-NodeJS ![alt tag](https://travis-ci.org/ScalaSoft/TDD-NodeJS.svg?branch=master) [![Stories in Ready](https://badge.waffle.io/ScalaSoft/TDD-NodeJS.png?label=ready&title=Ready)](https://waffle.io/ScalaSoft/TDD-NodeJS)
 Simple example of TDD implementation in NodeJS.
 
 # Description
@@ -6,7 +6,7 @@ Simple example of TDD implementation in NodeJS.
 This project is a simple example how to use TDD in Nodejs storing on a SQLite Database. After that i used Travis CI to mage my builds. I hope you enjoy.
 
 ## Requires
-*   NodeJs inatlled >= 5
+*   NodeJs installed >= 5
 *   "chai": "^3.5.0",
 *   "express": "^4.13.4",
 *   "mocha": "^2.4.5",
